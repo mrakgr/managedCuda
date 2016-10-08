@@ -1,0 +1,8 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\obj\x64\Debug\CudaDNN.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\bin\x64\Debug\CudaDNN.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\bin\x64\Debug\CudaDNN.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\bin\x64\Debug\CudaDNN.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\bin\x64\Debug\ManagedCuda.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\bin\x64\Debug\ManagedCuda.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\obj\x64\Debug\CudaDNN.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaDNN\obj\x64\Debug\CudaDNN.pdb

@@ -1,0 +1,6 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaFFT\bin\x64\Debug\CudaFFT.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaFFT\bin\x64\Debug\CudaFFT.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaFFT\bin\x64\Debug\CudaFFT.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaFFT\obj\x64\Debug\CudaFFT.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaFFT\obj\x64\Debug\CudaFFT.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaFFT\obj\x64\Debug\CudaFFT.pdb

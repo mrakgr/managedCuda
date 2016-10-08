@@ -1,0 +1,6 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaBlas\bin\x64\Debug\CudaBlas.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaBlas\bin\x64\Debug\CudaBlas.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaBlas\bin\x64\Debug\CudaBlas.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaBlas\obj\x64\Debug\CudaBlas.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaBlas\obj\x64\Debug\CudaBlas.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaBlas\obj\x64\Debug\CudaBlas.pdb

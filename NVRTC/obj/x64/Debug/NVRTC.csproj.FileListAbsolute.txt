@@ -1,0 +1,8 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\bin\x64\Debug\NVRTC.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\bin\x64\Debug\NVRTC.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\bin\x64\Debug\NVRTC.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\bin\x64\Debug\ManagedCuda.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\bin\x64\Debug\ManagedCuda.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\bin\x64\Debug\ManagedCuda.xml
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\obj\x64\Debug\NVRTC.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVRTC\obj\x64\Debug\NVRTC.pdb

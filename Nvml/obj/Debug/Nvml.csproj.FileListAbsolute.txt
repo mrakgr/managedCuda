@@ -1,0 +1,7 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\Nvml\bin\Debug\Nvml.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\Nvml\bin\Debug\Nvml.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\Nvml\bin\Debug\ManagedCuda.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\Nvml\bin\Debug\ManagedCuda.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\Nvml\bin\Debug\ManagedCuda.xml
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\Nvml\obj\Debug\Nvml.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\Nvml\obj\Debug\Nvml.pdb

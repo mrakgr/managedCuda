@@ -814,6 +814,47 @@ namespace ManagedCuda.CudaDNN
             if (res != cudnnStatus.Success) throw new CudaDNNException(res);
         }
 
+        /// <summary>
+        /// This function implements the equation C = op(alpha1[0] * A, alpha2[0] * B) + beta[0] * C, 
+        /// given tensors A, B, and C and scaling factors alpha1, alpha2, and beta.The op to use is 
+        /// indicated by the descriptor opTensorDesc.Currently-supported ops are listed by the 
+        /// cudnnOpTensorOp_t enum. Each dimension of the input tensor A must match the corresponding 
+        /// dimension of the destination tensor C, and each dimension of the input tensor B must match 
+        /// the corresponding dimension of the destination tensor C or must be equal to 1. In the latter 
+        /// case, the same value from the input tensor B for those dimensions will be used to blend into the 
+        /// C tensor.The data types of the input tensors A and B must match. If the data type of the 
+        /// destination tensor C is double, then the data type of the input tensors also must be double. If 
+        /// the data type of the destination tensor C is double, then opTensorCompType in opTensorDesc must 
+        /// be double. Else opTensorCompType must be float. If the input tensor B is the same tensor as 
+        /// the destination tensor C, then the input tensor A also must be the same tensor as the 
+        /// destination tensor C.
+        /// </summary>
+        /// <param name="op_desc">Handle to a previously initialized op tensor descriptor.</param>
+        /// <param name="alpha1">Pointer to the scaling factor(in host memory) used to blend the source value with prior 
+        /// value in the destination tensor as indicated by the above op equation.</param>
+        /// <param name="a_desc">Handle to a previously initialized tensor descriptor.</param>
+        /// <param name="a">Pointer to data of the tensor described by the a_desc.</param>
+        /// <param name="alpha2">Pointer to the scaling factor(in host memory) used to blend the source value with prior 
+        /// value in the destination tensor as indicated by the above op equation.</param>
+        /// <param name="b_desc">Handle to a previously initialized tensor descriptor.</param>
+        /// <param name="b">Pointer to data of the tensor described by the b_desc.</param>
+        /// <param name="beta">Pointer to the scaling factor(in host memory) used to blend the source value with prior 
+        /// value in the destination tensor as indicated by the above op equation.</param>
+        /// <param name="c_desc">Handle to a previously initialized tensor descriptor.</param>
+        /// <param name="c">Output pointer to data of the tensor described by the c_desc.</param>
+        public void OpTensor(OpTensorDescriptor op_desc, 
+            float alpha1, TensorDescriptor a_desc, CudaDeviceVariable<float> a,
+            float alpha2, TensorDescriptor b_desc, CudaDeviceVariable<float> b,
+            float beta, TensorDescriptor c_desc, CudaDeviceVariable<float> c)
+        {
+            res = CudaDNNNativeMethods.cudnnOpTensor(_handle, op_desc.Desc, 
+                ref alpha1, a_desc.Desc, a.DevicePointer, 
+                ref alpha2, b_desc.Desc, b.DevicePointer, 
+                ref beta, c_desc.Desc, c.DevicePointer);
+            Debug.WriteLine(String.Format("{0:G}, {1}: {2}", DateTime.Now, "BatchNormalizationBackward", res));
+            if (res != cudnnStatus.Success) throw new CudaDNNException(res);
+        }
+
         #endregion
 
         #region doubles
@@ -1326,22 +1367,64 @@ namespace ManagedCuda.CudaDNN
 			if (res != cudnnStatus.Success) throw new CudaDNNException(res);
 		}
 
-		#endregion
+        /// <summary>
+        /// This function implements the equation C = op(alpha1[0] * A, alpha2[0] * B) + beta[0] * C, 
+        /// given tensors A, B, and C and scaling factors alpha1, alpha2, and beta.The op to use is 
+        /// indicated by the descriptor opTensorDesc.Currently-supported ops are listed by the 
+        /// cudnnOpTensorOp_t enum. Each dimension of the input tensor A must match the corresponding 
+        /// dimension of the destination tensor C, and each dimension of the input tensor B must match 
+        /// the corresponding dimension of the destination tensor C or must be equal to 1. In the latter 
+        /// case, the same value from the input tensor B for those dimensions will be used to blend into the 
+        /// C tensor.The data types of the input tensors A and B must match. If the data type of the 
+        /// destination tensor C is double, then the data type of the input tensors also must be double. If 
+        /// the data type of the destination tensor C is double, then opTensorCompType in opTensorDesc must 
+        /// be double. Else opTensorCompType must be float. If the input tensor B is the same tensor as 
+        /// the destination tensor C, then the input tensor A also must be the same tensor as the 
+        /// destination tensor C.
+        /// </summary>
+        /// <param name="op_desc">Handle to a previously initialized op tensor descriptor.</param>
+        /// <param name="alpha1">Pointer to the scaling factor(in host memory) used to blend the source value with prior 
+        /// value in the destination tensor as indicated by the above op equation.</param>
+        /// <param name="a_desc">Handle to a previously initialized tensor descriptor.</param>
+        /// <param name="a">Pointer to data of the tensor described by the a_desc.</param>
+        /// <param name="alpha2">Pointer to the scaling factor(in host memory) used to blend the source value with prior 
+        /// value in the destination tensor as indicated by the above op equation.</param>
+        /// <param name="b_desc">Handle to a previously initialized tensor descriptor.</param>
+        /// <param name="b">Pointer to data of the tensor described by the b_desc.</param>
+        /// <param name="beta">Pointer to the scaling factor(in host memory) used to blend the source value with prior 
+        /// value in the destination tensor as indicated by the above op equation.</param>
+        /// <param name="c_desc">Handle to a previously initialized tensor descriptor.</param>
+        /// <param name="c">Output pointer to data of the tensor described by the c_desc.</param>
+        public void OpTensor(OpTensorDescriptor op_desc,
+            double alpha1, TensorDescriptor a_desc, CudaDeviceVariable<float> a,
+            double alpha2, TensorDescriptor b_desc, CudaDeviceVariable<float> b,
+            double beta, TensorDescriptor c_desc, CudaDeviceVariable<float> c)
+        {
+            res = CudaDNNNativeMethods.cudnnOpTensor(_handle, op_desc.Desc,
+                ref alpha1, a_desc.Desc, a.DevicePointer,
+                ref alpha2, b_desc.Desc, b.DevicePointer,
+                ref beta, c_desc.Desc, c.DevicePointer);
+            Debug.WriteLine(String.Format("{0:G}, {1}: {2}", DateTime.Now, "BatchNormalizationBackward", res));
+            if (res != cudnnStatus.Success) throw new CudaDNNException(res);
+        }
 
-		#region Type independent
 
-		/// <summary>
-		/// This function attempts all cuDNN algorithms and outputs performance metrics to a
-		/// user-allocated array of cudnnConvolutionFwdAlgoPerf_t. These metrics are written
-		/// in sorted fashion where the first element has the lowest compute time.
-		/// </summary>
-		/// <param name="srcDesc">Handle to the previously initialized input tensor descriptor.</param>
-		/// <param name="filterDesc">Handle to a previously initialized filter descriptor.</param>
-		/// <param name="convDesc">Previously initialized convolution descriptor.</param>
-		/// <param name="destDesc">Handle to the previously initialized output tensor descriptor.</param>
-		/// <param name="requestedAlgoCount">The maximum number of elements to be stored in perfResults.</param>
-		/// <returns>An array to store performance metrics sorted ascending by compute time.</returns>
-		public cudnnConvolutionFwdAlgoPerf[] FindConvolutionForwardAlgorithm(TensorDescriptor srcDesc,
+        #endregion
+
+        #region Type independent
+
+        /// <summary>
+        /// This function attempts all cuDNN algorithms and outputs performance metrics to a
+        /// user-allocated array of cudnnConvolutionFwdAlgoPerf_t. These metrics are written
+        /// in sorted fashion where the first element has the lowest compute time.
+        /// </summary>
+        /// <param name="srcDesc">Handle to the previously initialized input tensor descriptor.</param>
+        /// <param name="filterDesc">Handle to a previously initialized filter descriptor.</param>
+        /// <param name="convDesc">Previously initialized convolution descriptor.</param>
+        /// <param name="destDesc">Handle to the previously initialized output tensor descriptor.</param>
+        /// <param name="requestedAlgoCount">The maximum number of elements to be stored in perfResults.</param>
+        /// <returns>An array to store performance metrics sorted ascending by compute time.</returns>
+        public cudnnConvolutionFwdAlgoPerf[] FindConvolutionForwardAlgorithm(TensorDescriptor srcDesc,
 													FilterDescriptor filterDesc,
 													ConvolutionDescriptor convDesc,
 													TensorDescriptor destDesc,

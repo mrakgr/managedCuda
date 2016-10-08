@@ -1,0 +1,6 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\ManagedCUDA\bin\Debug\ManagedCuda.xml
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\ManagedCUDA\bin\Debug\ManagedCuda.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\ManagedCUDA\bin\Debug\ManagedCuda.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\ManagedCUDA\obj\Debug\ManagedCuda.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\ManagedCUDA\obj\Debug\ManagedCuda.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\ManagedCUDA\obj\Debug\ManagedCuda.pdb

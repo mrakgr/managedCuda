@@ -1,0 +1,15 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaSolve.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaSolve.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaSolve.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaBlas.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaSparse.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\ManagedCuda.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaBlas.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaBlas.xml
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaSparse.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\CudaSparse.xml
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\ManagedCuda.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\bin\x64\Debug\ManagedCuda.xml
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\obj\x64\Debug\CudaSolve.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\obj\x64\Debug\CudaSolve.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSolve\obj\x64\Debug\CudaSolve.pdb

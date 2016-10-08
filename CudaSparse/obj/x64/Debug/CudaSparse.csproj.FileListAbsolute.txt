@@ -1,0 +1,6 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSparse\bin\x64\Debug\CudaSparse.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSparse\bin\x64\Debug\CudaSparse.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSparse\bin\x64\Debug\CudaSparse.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSparse\obj\x64\Debug\CudaSparse.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSparse\obj\x64\Debug\CudaSparse.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaSparse\obj\x64\Debug\CudaSparse.pdb

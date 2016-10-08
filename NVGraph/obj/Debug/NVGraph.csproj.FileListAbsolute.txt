@@ -1,0 +1,7 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVGraph\bin\Debug\NVGraph.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVGraph\bin\Debug\NVGraph.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVGraph\bin\Debug\ManagedCuda.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVGraph\bin\Debug\ManagedCuda.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVGraph\bin\Debug\ManagedCuda.xml
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVGraph\obj\Debug\NVGraph.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NVGraph\obj\Debug\NVGraph.pdb

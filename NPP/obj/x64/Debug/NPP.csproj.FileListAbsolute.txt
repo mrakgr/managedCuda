@@ -1,0 +1,6 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NPP\bin\x64\Debug\NPP.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NPP\bin\x64\Debug\NPP.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NPP\bin\x64\Debug\NPP.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NPP\obj\x64\Debug\NPP.csprojResolveAssemblyReference.cache
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NPP\obj\x64\Debug\NPP.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\NPP\obj\x64\Debug\NPP.pdb

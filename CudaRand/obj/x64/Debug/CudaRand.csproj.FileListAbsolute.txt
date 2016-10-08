@@ -1,0 +1,5 @@
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaRand\bin\x64\Debug\CudaRand.XML
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaRand\bin\x64\Debug\CudaRand.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaRand\bin\x64\Debug\CudaRand.pdb
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaRand\obj\x64\Debug\CudaRand.dll
+C:\Users\Marko\Documents\Visual Studio 2015\Projects\managedCuda\CudaRand\obj\x64\Debug\CudaRand.pdb
